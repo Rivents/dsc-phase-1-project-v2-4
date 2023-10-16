@@ -6,6 +6,9 @@ Analayzing publically available databases on thousands of films, we have a stron
 
 # Business Understanding
 
+What consitutes sucessful? there are many measurements of sucess that could be used in this senario. For simplicity, we have opted to use gross foreign reveanue as our bench mark of sucess. 
+As far as what factors equate to higher grossing film worldwide, there are many to consider. Some of these include: 
+
 * What movie types or **genres** being in the most revenue?
 
 * What **studios** are the most profitable?
@@ -39,11 +42,11 @@ We evaluated these databases for several metrics that could be associated with l
 
 Using the data sample lsited above, we analyzed it for trends in movie genre, run time, and studio.
 
-[graph of gross foreign reveanue over movie genre](http://localhost:8888/view/Genre%20chart.png)
+![graph of gross foreign reveanue over movie genre](https://raw.githubusercontent.com/Rivents/dsc-phase-1-project-v2-4/master/Genre%20chart.png)
 
-[graph of gross foreign reveanue over movie studio](http://localhost:8888/view/Studio%20chart.png)
+![graph of gross foreign reveanue over movie studio](https://raw.githubusercontent.com/Rivents/dsc-phase-1-project-v2-4/master/Studio%20chart.png)
 
-[Scatter plot comparison of gross foreign reveanue over movie runtime ](http://localhost:8888/view/Runtime%20scatter.png)
+![Scatter plot comparison of gross foreign reveanue over movie runtime ](https://raw.githubusercontent.com/Rivents/dsc-phase-1-project-v2-4/master/Runtime%20scatter.png)
 
 
 # Conclusion
