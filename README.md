@@ -6,7 +6,7 @@ Analayzing publically available databases on thousands of films, we have a stron
 
 # Business Understanding
 
-What consitutes sucessful? there are many measurements of sucess that could be used in this senario. For simplicity, we have opted to use gross foreign reveanue as our bench mark of sucess. 
+What constitutes success? there are many measurements of sucess that could be used in this senario. For simplicity, we have opted to use **gross foreign reveanue** as our bench mark of sucess. 
 As far as what factors equate to higher grossing film worldwide, there are many to consider. Some of these include: 
 
 * What movie types or **genres** being in the most revenue?
@@ -42,12 +42,24 @@ We evaluated these databases for several metrics that could be associated with l
 
 Using the data sample lsited above, we analyzed it for trends in movie genre, run time, and studio.
 
+## Movie Genre Analsysis
+
 ![graph of gross foreign reveanue over movie genre](https://raw.githubusercontent.com/Rivents/dsc-phase-1-project-v2-4/master/Genre%20chart.png)
+
+When evaluating by Genre, it appears that **Sci-Fi**, **Adventure**, and **Animation** are among the highest grossing movies worldwide.
+
+## Studio Analysis
 
 ![graph of gross foreign reveanue over movie studio](https://raw.githubusercontent.com/Rivents/dsc-phase-1-project-v2-4/master/Studio%20chart.png)
 
+As one can seen, the highest grossingn films often are from the studio **HC**, followed by **P/DW**, **BV**, and **GrtIndia**
+Although HC may be considered an outlier due to its sigifnicantly larger grossing movies, we opted to keep it within the dataset analyzed as it would still be valuable to the company to potentially study or aquire at some point.
+
+## Runtime Analysis
+
 ![Scatter plot comparison of gross foreign reveanue over movie runtime ](https://raw.githubusercontent.com/Rivents/dsc-phase-1-project-v2-4/master/Runtime%20scatter.png)
 
+Foreign gross appears to have a trend of increasing as the runtime increases, however the slope is likely small. thus having a film that is on average, a bit longer may be more profitable.
 
 # Conclusion
 
